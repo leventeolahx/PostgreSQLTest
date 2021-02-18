@@ -1,0 +1,12 @@
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\obj\Debug\netcoreapp3.1\PSQL.Data.Domain.csprojAssemblyReference.cache
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\obj\Debug\netcoreapp3.1\PSQL.Data.Domain.AssemblyInfoInputs.cache
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\obj\Debug\netcoreapp3.1\PSQL.Data.Domain.AssemblyInfo.cs
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\obj\Debug\netcoreapp3.1\PSQL.Data.Domain.csproj.CoreCompileInputs.cache
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\bin\Debug\netcoreapp3.1\PSQL.Data.Domain.deps.json
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\bin\Debug\netcoreapp3.1\PSQL.Data.Domain.dll
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\bin\Debug\netcoreapp3.1\PSQL.Data.Domain.pdb
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\obj\Debug\netcoreapp3.1\PSQL.Data.Domain.dll
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\obj\Debug\netcoreapp3.1\PSQL.Data.Domain.pdb
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\bin\Debug\netcoreapp3.1\PSQL.Data.Domain.runtimeconfig.json
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\bin\Debug\netcoreapp3.1\PSQL.Data.Domain.runtimeconfig.dev.json
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\obj\Debug\netcoreapp3.1\PSQL.Data.Domain.genruntimeconfig.cache

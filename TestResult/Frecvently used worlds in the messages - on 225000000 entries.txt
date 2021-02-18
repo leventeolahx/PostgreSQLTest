@@ -1,0 +1,56 @@
+Search text: focuse time
+Query time (milliseconds): 250476
+Result[0].Text: Networked national middleware Customer-focused local time-frame Automated bottom-line synergy
+Result[1].Text: Customer-focused real-time policy
+Result[2].Text: Adaptive optimizing instruction set Horizontal zero administration forecast Focused stable time-frame
+Result[3].Text: Customizable explicit function Mandatory foreground support Focused real-time customer loyalty
+Result[4].Text: Focused motivating time-frame
+Result[5].Text: Customer-focused real-time application
+Result[6].Text: Monitored real-time array Distributed dynamic frame Ergonomic value-added focus group
+Result[7].Text: Profit-focused real-time focus group Multi-tiered bifurcated approach Horizontal 24/7 process improvement
+Result[8].Text: Focused optimal time-frame
+Result[9].Text: Customer-focused uniform alliance Progressive intangible time-frame Centralized 5th generation adapter
+
+Search text: effective work
+Query time (milliseconds): 28
+
+Search text: managed trip
+Query time (milliseconds): 8
+
+Search text: future data
+Query time (milliseconds): 37363
+Result[0].Text: Future-proofed homogeneous data-warehouse
+Result[1].Text: Future-proofed analyzing data-warehouse
+Result[2].Text: Future-proofed discrete data-warehouse
+Result[3].Text: Future-proofed actuating data-warehouse
+Result[4].Text: Future-proofed next generation data-warehouse
+Result[5].Text: Robust composite encryption Future-proofed directional data-warehouse Mandatory stable policy
+Result[6].Text: Operative client-driven data-warehouse Future-proofed intermediate framework Vision-oriented user-facing alliance
+Result[7].Text: Future-proofed system-worthy concept Multi-channelled 5th generation throughput Ergonomic 4th generation data-warehouse
+Result[8].Text: Future-proofed optimizing data-warehouse Distributed uniform success Organized 4th generation task-forceResult[9].Text: Future-proofed eco-centric conglomeration Multi-tiered multimedia orchestration Proactive demand-driven data-warehouse
+
+Search text: open source
+Query time (milliseconds): 603948
+Result[0].Text: Open-source context-sensitive definition
+Result[1].Text: Open-source multi-state Graphic Interface
+Result[2].Text: Open-source optimizing customer loyalty
+Result[3].Text: Open-source bandwidth-monitored moratorium
+Result[4].Text: Open-source transitional productivity Programmable dedicated software Networked optimal firmware
+Result[5].Text: Open-source coherent time-frame
+Result[6].Text: Managed static flexibility Profound bifurcated alliance Open-source logistical circuit
+Result[7].Text: Open-source executive strategy
+Result[8].Text: Open-source dedicated productivity
+Result[9].Text: Total composite focus group Open-source actuating alliance Seamless local website
+
+Search text: hybrid
+Query time (milliseconds): 509209
+Result[0].Text: Persevering hybrid implementation
+Result[1].Text: Organized hybrid array
+Result[2].Text: Cross-group hybrid interface
+Result[3].Text: Multi-layered hybrid paradigm
+Result[4].Text: Expanded hybrid superstructure
+Result[5].Text: Decentralized hybrid projection
+Result[6].Text: Fundamental hybrid concept
+Result[7].Text: Seamless holistic functionalities Cross-group hybrid encryption Digitized real-time product
+Result[8].Text: Vision-oriented hybrid encryption Persistent impactful capability Enhanced multi-state model
+Result[9].Text: Re-engineered context-sensitive structure Upgradable multimedia adapter Multi-channelled hybrid definition

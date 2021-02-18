@@ -1,0 +1,39 @@
+Search text: focuse time
+Query time (milliseconds): 252770
+Result[0].Text: Networked national middleware Customer-focused local time-frame Automated bottom-line synergy
+Result[1].Text: Quality-focused real-time hierarchy
+Result[2].Text: Adaptive optimizing instruction set Horizontal zero administration forecast Focused stable time-frame
+Result[3].Text: Customizable explicit function Mandatory foreground support Focused real-time customer loyalty
+Result[4].Text: Focused motivating time-frame
+Result[5].Text: Customer-focused real-time application
+Result[6].Text: Monitored real-time array Distributed dynamic frame Ergonomic value-added focus group
+Result[7].Text: Profit-focused real-time focus group Multi-tiered bifurcated approach Horizontal 24/7 process improvement
+Result[8].Text: Focused optimal time-frame
+Result[9].Text: Customer-focused uniform alliance Progressive intangible time-frame Centralized 5th generation adapter
+
+Search text: best company ever
+Query time (milliseconds): 28
+
+Search text: mountain trip
+Query time (milliseconds): 7
+
+Search text: albert einstein
+Query time (milliseconds): 1
+
+Search text: wikipedia
+Query time (milliseconds): 67
+
+Search text: google chrome issue
+Query time (milliseconds): 1
+
+Search text: cryptocurrency prices
+Query time (milliseconds): 1
+
+Search text: animal world
+Query time (milliseconds): 0
+
+Search text: transactional analysis
+Query time (milliseconds): 1
+
+Search text: programming languages
+Query time (milliseconds): 1

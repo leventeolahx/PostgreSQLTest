@@ -1,0 +1,114 @@
+Search text: Recusand non iusto velit.
+Original text (this text should be at the top): Recusandae non iusto accusantium velit.
+Query time (milliseconds): 1422
+
+Search text: velit optio sed  doloremque.
+Original text (this text should be at the top): Voluptas velit optio sed magnam doloremque.
+Query time (milliseconds): 130
+Result[0].Text: Rerum veniam sed est doloremque velit eum velit optio.
+Result[1].Text: Voluptas velit optio sed magnam doloremque.
+Result[2].Text: Optio sed doloremque mollitia magni consequatur velit.
+Result[3].Text: Sequi praesentium quam eum sunt velit iusto asperiores. Accusantium id nihil amet quo eum sed illo maiores. Enim voluptatem saepe et commodi. Dicta doloremque nesciunt est perferendis quisquam optio ipsum. Enim vero ratione modi sequi molestiae dolorum quod.
+Result[4].Text: Et quis exercitationem aut voluptatem eaque. Ullam assumenda voluptatem enim repellat. Quam velit ut fugiat minus magnam maiores. Quo et doloremque est quaerat est. Dolor occaecati optio odit reiciendis autem qui molestiae sed.
+Result[5].Text: Sit sed cumque repellat est quo eveniet. Fugiat praesentium impedit tenetur et ducimus maxime ex. Doloremque possimus laboriosam consequatur distinctio. Numquam esse repudiandae incidunt. Nostrum qui velit nam corrupti nam optio.
+Result[6].Text: Facilis velit dolorem similique sunt sed. Nam optio ea architecto est maiores voluptates. Voluptas accusantium qui voluptas voluptas. At reprehenderit quibusdam rerum numquam doloremque qui.
+Result[7].Text: In velit ut consequuntur natus vel reiciendis. Magnam quod et voluptatem delectus iusto ut. Voluptatem ab distinctio et quasi minima. Adipisci molestiae optio ut doloremque. Nisi autem non voluptatem sed exercitationem neque incidunt totam.
+Result[8].Text: Est facere ipsum perferendis ut et optio praesentium blanditiis. Veritatis dolor similique minus earum quia fugit velit excepturi. Voluptates facilis esse quo doloremque maxime porro. Sed eum optio voluptatem est earum reprehenderit. Nihil consequatur ut dolor.
+Result[9].Text: Assumenda consequatur laborum libero beatae illo velit qui. Praesentium quia autem vel corrupti facere dicta. Dolore rerum asperiores ratione optio doloremque. Nobis omnis totam ut ducimus quod. Delectus omnis occaecati sed similique impedit pariatur temporibus.
+
+Search text: Tempore quasi in nesciunt minima.
+Original text (this text should be at the top): Tempore quasi in perspiciatis nesciunt deserunt cumque minima.
+Query time (milliseconds): 47
+Result[0].Text: Tempore quasi in perspiciatis nesciunt deserunt cumque minima.
+Result[1].Text: Ea optio corporis tempore eligendi molestiae. Qui tenetur et sit vel distinctio deserunt at nesciunt. Commodi officiis ut nam iure quos eaque eius. Illum nemo delectus provident quasi nam dolores aperiam minima. Veritatis nisi et sunt recusandae.
+Result[2].Text: Ullam ut aspernatur ex expedita aut vel numquam expedita. Deserunt aliquam repellat tempore nam quasi. Odit sequi sit dolorem. Nesciunt expedita deleniti cum. Placeat sequi dolorem at a qui deserunt minima velit.
+Result[3].Text: Consequatur consequatur qui mollitia veritatis pariatur quod est. Quasi fuga doloremque eius tempore nesciunt reiciendis. Ullam ipsam ut nisi minima.
+Result[4].Text: Nesciunt optio vel temporibus rerum alias. Voluptas quasi laborum perspiciatis minima neque repellat. Sed tempore quae minima. Rerum consequatur perspiciatis architecto molestiae alias laudantium quisquam. Voluptas delectus quae consequatur nihil corporis error rerum.
+Result[5].Text: Nulla quos dolores nesciunt voluptatibus ea minima non illo. Unde corrupti consequatur delectus vel. Pariatur accusamus soluta et qui at iusto occaecati error. Ea earum esse tempore accusamus voluptatum quod quasi harum.
+Result[6].Text: Maiores ad ex nobis et tempore aliquam quasi. Nesciunt laborum ipsam minima totam. Nemo facilis qui voluptatum minus quia quo nulla.
+Result[7].Text: Consequatur adipisci eos fuga eveniet corporis harum molestias non. Aut vero minima aut dignissimos accusantium tempore. Unde voluptatem aut optio nesciunt sed. Facere cupiditate quasi eaque.
+Result[8].Text: Tempore quis doloribus in fugiat molestiae vel alias. Ut sapiente qui placeat vero delectus suscipit odio. Voluptas quasi consequatur minima tenetur quos voluptatem maxime in. Sunt et voluptatum iure et necessitatibus. Placeat inventore animi rerum quis nesciunt ut.
+Result[9].Text: Quasi minima sunt velit nam tenetur reiciendis nisi quaerat. Dicta eum ut deleniti corporis perspiciatis rerum. Deleniti beatae nemo tempore laboriosam nesciunt.
+
+Search text: minima id omnis.
+Original text (this text should be at the top): Temporibus minima adipisci id omnis.
+Query time (milliseconds): 263
+Result[0].Text: Id minima voluptatem aperiam et omnis rerum quasi fugit.
+Result[1].Text: Repellat cum rerum omnis ducimus minima sapiente consectetur id.
+Result[2].Text: Voluptates omnis minima amet ex id aut temporibus.
+Result[3].Text: Veritatis ab id minima magnam omnis eligendi.
+Result[4].Text: Eos omnis illum quaerat minima quisquam perspiciatis id.
+Result[5].Text: Molestiae id minima omnis ut eum et molestias laborum.
+Result[6].Text: Ipsa minima ut odit non in omnis id amet.
+Result[7].Text: Minima nemo id praesentium omnis.
+Result[8].Text: Aut omnis minima vel id quis eos.
+Result[9].Text: Aspernatur id minima omnis eos fugiat est accusantium.
+
+Search text: Dolores necessitatibus aut ut.
+Original text (this text should be at the top): Dolores necessitatibus aut ut et ipsa illum.
+Query time (milliseconds): 434
+Result[0].Text: Commodi necessitatibus rerum ut dolor ut aut.
+Result[1].Text: Dolor aut eos sed molestias eum qui ut necessitatibus.
+Result[2].Text: Hic dolorem aut dolor esse ut rerum et necessitatibus.
+Result[3].Text: Inventore aut expedita dolores quia quo harum ut necessitatibus.
+Result[4].Text: Vero aut ex est ut alias minus necessitatibus dolores.
+Result[5].Text: Et ut dolore aut necessitatibus ipsum magnam commodi possimus.
+Result[6].Text: Necessitatibus magnam eum rerum veritatis dolores ut aut aperiam.
+Result[7].Text: Necessitatibus voluptatum ut dolor quo aut et ipsam.
+Result[8].Text: Nulla dolores necessitatibus commodi aut omnis aspernatur ut fugiat.
+Result[9].Text: Sunt ut ut quia aut eveniet dolores necessitatibus.
+
+Search text: Praesentium distinctio in laudantium esse magni veritatis
+Original text (this text should be at the top): Praesentium distinctio in laudantium esse magni veritatis harum recusandae.
+Query time (milliseconds): 54
+Result[0].Text: Praesentium distinctio in laudantium esse magni veritatis harum recusandae.
+Result[1].Text: Sit rem veritatis modi saepe praesentium. Voluptatum nisi laudantium inventore reprehenderit distinctio rerum aut eos. Eos occaecati magni fuga. Eum esse optio velit sit quos tempore.
+Result[2].Text: Veritatis enim rerum vero et harum delectus. Laboriosam magni corporis quia praesentium optio corporis. Esse pariatur est voluptas laborum. Laudantium voluptatem sunt placeat dolorem. Aut rerum sint voluptas aut distinctio totam.
+Result[3].Text: Eos porro aperiam dignissimos nihil quasi esse. Accusamus facere amet dolore distinctio. Et praesentium laudantium veritatis laboriosam pariatur. Possimus labore quia dolore et aut aperiam magni quibusdam. Doloremque eveniet architecto nesciunt ad voluptate quam itaque.
+
+Search text: magnam aut eum in dolor rerum eum.
+Original text (this text should be at the top): Odio assumenda vel et. Quas quo qui error. Modi magnam aut eum in dolor rerum eum ratione.
+Query time (milliseconds): 149
+Result[0].Text: Necessitatibus magnam eum rerum veritatis dolores ut aut aperiam.
+Result[1].Text: Ab eum laboriosam minima dolores aut modi rerum. Ab explicabo magnam provident explicabo eius eligendi optio repellendus. Dolorem debitis inventore ut.
+Result[2].Text: Aut omnis corrupti suscipit et magnam nisi laboriosam atque. Id voluptas laudantium facilis eum et deserunt corporis magnam. Repellendus vel rerum at eius sunt reiciendis dolore.
+Result[3].Text: Quam illum aut deleniti placeat saepe ab ullam et. Ut quas velit dolor eum debitis doloribus. Rerum nihil minima nihil magnam quas nihil rerum. Est delectus saepe ea repellendus rerum.
+Result[4].Text: In suscipit omnis consectetur velit ut molestiae et. Non magnam vitae unde occaecati aut aliquam explicabo iusto. Sint repellendus inventore dolorem. Eum a rerum doloremque beatae dolor temporibus.
+Result[5].Text: Magnam dolor ut et sunt suscipit eum aperiam. A molestiae vel perspiciatis cupiditate necessitatibus. Consectetur eligendi excepturi et. Vel et aut nesciunt velit nulla esse. Quasi dolorum consequatur autem dolores rerum id.
+Result[6].Text: Fugiat et doloribus aut eum qui magnam rerum voluptas. Ipsa et dolores impedit. Nostrum blanditiis voluptatem ad tempore provident adipisci magnam accusamus.
+Result[7].Text: Ea quas rerum magnam nisi autem quos dolor praesentium. Est possimus est omnis eum rerum. Et et cum quod earum voluptatem blanditiis aliquid. Aut nesciunt repellat beatae modi facilis ut qui. A et incidunt sapiente vel.
+Result[8].Text: Sint qui itaque nisi perferendis ullam consequatur cupiditate. Ducimus rerum velit aut. A magni numquam amet et repellat eum dignissimos rerum. Rerum quod autem dolores consequatur. Amet magnam dolores vel voluptatem provident fugit.
+Result[9].Text: Veritatis et et non quibusdam quia dolore pariatur ut. Fugit eos magnam dolore velit. Delectus delectus aut tempore ipsam. Corporis suscipit et magni velit. Et delectus expedita rerum eum nostrum.
+
+Search text: Et voluptatem dolor. quibusdam praesentium minus dicta.
+Original text (this text should be at the top): Saepe omnis autem sed soluta. Et voluptatem cum pariatur ad delectus vitae dolor. Aut explicabo et molestiae. Aliquid illo totam quibusdam praesentium minus dicta.
+Query time (milliseconds): 84
+Result[0].Text: Magnam non illum inventore fugiat quos. Dicta minus quibusdam fuga dolore quo adipisci. Omnis ipsum vero qui et aut. Quod et aliquam sequi excepturi sit consectetur eius impedit. Eius voluptatem delectus praesentium distinctio voluptate perspiciatis repudiandae pariatur.
+Result[1].Text: Est minus ut voluptas sit praesentium id. Quia doloribus dicta est aut delectus voluptatem dolor. Sit et impedit non rem. Voluptate nihil debitis nisi eos aut rerum. Doloremque excepturi reiciendis quibusdam eligendi necessitatibus explicabo magnam sed.
+Result[2].Text: Consequatur quae iusto iste ipsa voluptate et. Dicta hic quisquam dolores ex placeat. Iure minus quibusdam est nihil. Nemo impedit dicta vero magni qui soluta eum. Praesentium id officiis dolorum sapiente animi ullam voluptatem.
+Result[3].Text: Voluptatibus dicta voluptatem harum. Dolor id nobis praesentium facilis. Cumque dolorum accusamus quibusdam pariatur inventore. Itaque harum sed minus aut et. Autem vitae tempora laboriosam eius rerum.
+Result[4].Text: Praesentium dicta possimus id dignissimos. Qui quidem et aut est dolore fuga. Voluptatem eveniet sed commodi quibusdam non odit sed sunt. Qui vitae minus reiciendis. Unde officiis tempore sit et qui aperiam.
+Result[5].Text: Voluptate voluptatem est dicta esse quo ex magni. Itaque ut dolor necessitatibus beatae molestiae molestiae. Enim dolorem veritatis sed ab odio laboriosam praesentium et. Quibusdam qui est nisi sint occaecati minus.
+Result[6].Text: Quia in ratione dolores commodi ut quo assumenda. Numquam dolorem necessitatibus eligendi perferendis dolores minima et quaerat. Quis ab aperiam et aut dicta explicabo. Voluptates quibusdam id est. Est maiores minus quisquam voluptatem voluptas praesentium aperiam eligendi.
+Result[7].Text: Magni voluptatem praesentium necessitatibus autem rem minus eos. Aut eligendi excepturi quibusdam dolores velit consequatur distinctio quia. Impedit ex magni commodi quidem quia dicta et. Consectetur architecto facilis aperiam maiores eligendi assumenda.
+Result[8].Text: Voluptatem qui assumenda dolorum sit vel in. Consequatur magni minima placeat expedita iste praesentium. Occaecati doloribus repellendus quae deserunt qui minus earum id. Ducimus nostrum ad dolor delectus quibusdam. Eum deleniti dicta repudiandae error et.
+Result[9].Text: Itaque voluptatem dicta omnis nobis. Totam magnam et nihil voluptatem nostrum. Dolores et sed atque unde eveniet doloribus. Praesentium quibusdam et sed minus quasi sit atque. Blanditiis aliquid nam similique voluptatem tenetur accusamus.
+
+Search text: Eum error ut libero voluptatem et tempora omnis. Debitis quia sit et ducimus quo ipsam sunt. Harum enim deserunt quos velit voluptas debitis dolorum.
+Original text (this text should be at the top): Eum error ut libero voluptatem et tempora omnis. Debitis quia sit et ducimus quo ipsam sunt. Harum enim deserunt quos velit voluptas debitis dolorum.
+Query time (milliseconds): 253
+Result[0].Text: Eum error ut libero voluptatem et tempora omnis. Debitis quia sit et ducimus quo ipsam sunt. Harum enim deserunt quos velit voluptas debitis dolorum.
+
+Search text: Illum quae et sed animi cupiditate est.
+Original text (this text should be at the top): Illum quae et sed id. Ducimus adipisci animi cupiditate. Eum temporibus nulla beatae voluptatem voluptas harum. Aut hic debitis praesentium maxime aliquam quia. Quia qui ea natus est.
+Query time (milliseconds): 80
+Result[0].Text: Qui omnis alias molestiae animi et exercitationem est. Iste error illum minus quae explicabo nihil assumenda. Sed excepturi qui et praesentium aperiam error aut. Fugiat et repellat eos eum quos numquam inventore maiores. Rerum cum distinctio cupiditate.
+Result[1].Text: Quam quis aut dolore dicta. Enim corporis quam beatae. Cum eligendi qui voluptatem vel consequuntur ipsam sed cupiditate. Dolores vel corporis commodi quae iste est vel animi. Illum et consequatur repellat sunt consequatur quia minus.
+Result[2].Text: Sit id dignissimos pariatur omnis illum sed sit. Quibusdam vel cumque maxime cupiditate amet qui et doloremque. Sapiente est possimus excepturi similique veritatis iusto minus maiores. Quae alias repellendus molestiae et voluptate saepe molestiae nihil. Et animi magnam saepe magni nulla voluptatem.
+Result[3].Text: Id neque aut nostrum. Et vel officiis in. Illum animi amet soluta. Illo ut eius ea sed enim est rerum. Quae voluptas cupiditate dolor illum cupiditate.
+Result[4].Text: Occaecati et unde exercitationem eius. Aut animi porro iste quaerat dolor est quis. Velit quibusdam illum magni praesentium. Ipsum dolorem nihil perspiciatis impedit voluptatum blanditiis id. Cupiditate quas quae qui ratione repellat sed tempore unde.
+Result[5].Text: Eligendi qui quae aut saepe tempore cupiditate illum. Quia consequatur dolorem in ratione aperiam veritatis voluptatem molestiae. Culpa suscipit id voluptatum totam consequatur animi dolores. Sed sit et et et est praesentium.
+Result[6].Text: Voluptatem accusamus facere labore ut neque enim. Soluta eum unde animi nisi. Qui minima sed inventore quae illum ratione non rerum. Ullam expedita cupiditate accusantium sed cupiditate est dolorum et. Non temporibus facere magni.
+Result[7].Text: Rerum sed incidunt et tempore odio animi. Repellendus odit et nulla modi ullam vel iure cupiditate. Ut vel illum labore culpa. Est aut deleniti fuga sed officiis placeat est nostrum. Quae vero eius repudiandae quas sapiente.
+Result[8].Text: Ad dolores officia cum vitae aut sed. Ratione debitis sed error autem sapiente doloremque. Dolorem quae quas quo nemo placeat vitae deleniti. Cupiditate facere dolor beatae. Dolor iure est illum rerum est animi et maxime.
+Result[9].Text: Omnis quae illum eaque magni repudiandae. Est veritatis illum sed. Nihil mollitia mollitia et est nesciunt doloremque voluptatibus. Non animi cupiditate expedita voluptas explicabo.

@@ -1,0 +1,29 @@
+Search text: last time
+Query time (milliseconds): 1369
+
+Search text: best company ever
+Query time (milliseconds): 24
+
+Search text: mountain trip
+Query time (milliseconds): 7
+
+Search text: albert einstein
+Query time (milliseconds): 3
+
+Search text: wikipedia
+Query time (milliseconds): 58
+
+Search text: google chrome issue
+Query time (milliseconds): 1
+
+Search text: cryptocurrency prices
+Query time (milliseconds): 1
+
+Search text: animal world
+Query time (milliseconds): 0
+
+Search text: transactional analysis
+Query time (milliseconds): 0
+
+Search text: programming languages
+Query time (milliseconds): 0
