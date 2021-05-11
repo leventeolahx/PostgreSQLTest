@@ -9,6 +9,9 @@ using Microsoft.EntityFrameworkCore;
 using PSQL.Data.Domain;
 using PSQL.Data.Domain.Models;
 
+//using Npgsql.EntityFrameworkCore.PostgreSQL.ex;
+
+
 namespace PSQL.Debug.App
 {
     public class Program
@@ -36,19 +39,20 @@ namespace PSQL.Debug.App
             //    ("Eum error ut libero voluptatem et tempora omnis. Debitis quia sit et ducimus quo ipsam sunt. Harum enim deserunt quos velit voluptas debitis dolorum.", /*// 3235356, original text: */"Eum error ut libero voluptatem et tempora omnis. Debitis quia sit et ducimus quo ipsam sunt. Harum enim deserunt quos velit voluptas debitis dolorum."),
             //    ("Illum quae et sed animi cupiditate est.", /*// id: 3735356, original text: */"Illum quae et sed id. Ducimus adipisci animi cupiditate. Eum temporibus nulla beatae voluptatem voluptas harum. Aut hic debitis praesentium maxime aliquam quia. Quia qui ea natus est."),
             //};
-            //var searchTexts = new List<(string, string)>
-            //{
-            //    ("Upgradable high-level policy. Business-focused", /* // id: 220000006, original text: */"Upgradable high-level policy. Business-focused optimizing hub. Monitored optimizing capacity. Seamless directional definition. Assimilated motivating neural-net. Public-key intangible infrastructure. Expanded well-modulated challenge."),
-            //    ("Diverse intermediate hub.", /*// id: 220000038, original text: */"Diverse intermediate hub."),
-            //    ("Inverse global frame", /*// id: 220000329, original text: */"Balanced impactful emulation. Inverse global frame. Business-focused contextually-based application."),
-            //    ("Up-sized optimizing orchestration.", /*// id: 220000858, original text: */"Total composite focus group. Streamlined dedicated definition. Up-sized optimizing orchestration."),
-            //    ("Versatile stable encryption. Function-based 4th generation adapter.", /*// id: 220000989, original text: */"Adaptive attitude-oriented support. Networked scalable support. Open-architected scalable help-desk. Versatile stable encryption. Function-based 4th generation adapter."),
-            //    ("Assimilated didactic archive.", /*// id: 1535356, original text: */"Assimilated didactic archive."),
-            //    ("Enhanced disintermediate", /*// id: 220001902, original text: */"Enhanced disintermediate functionalities. Seamless contextually-based projection. Intuitive foreground process improvement. Advanced dynamic info-mediaries. Versatile needs-based open architecture. Profound clear-thinking orchestration. Integrated didactic task-force."),
-            //    ("Profound fault-tolerant", /*// id: 220002667, original text: */"Cross-platform non-volatile paradigm. Profound fault-tolerant hardware. Proactive fault-tolerant portal."),
-            //    ("Customer-focused discrete", /*// 3235356, original text: */"Customer-focused discrete focus group."),
-            //    ("Synergistic upward-trending.", /*// id: 220002998 , original text: */"Digitized methodical matrix. Synergistic upward-trending attitude."),
-            //};
+            var searchTexts = new List<(string, string)>
+            {
+                //("Upgradable high-level policy. Business-focused", /* // id: 220000006, original text: */"Upgradable high-level policy. Business-focused optimizing hub. Monitored optimizing capacity. Seamless directional definition. Assimilated motivating neural-net. Public-key intangible infrastructure. Expanded well-modulated challenge."),
+                ("Upgradable high-level policy", /* // id: 220000006, original text: */"Upgradable high-level policy. Business-focused optimizing hub. Monitored optimizing capacity. Seamless directional definition. Assimilated motivating neural-net. Public-key intangible infrastructure. Expanded well-modulated challenge."),
+                ("Diverse intermediate hub.", /*// id: 220000038, original text: */"Diverse intermediate hub."),
+                ("Inverse global frame", /*// id: 220000329, original text: */"Balanced impactful emulation. Inverse global frame. Business-focused contextually-based application."),
+                ("Up-sized optimizing orchestration.", /*// id: 220000858, original text: */"Total composite focus group. Streamlined dedicated definition. Up-sized optimizing orchestration."),
+                ("Versatile stable encryption. Function-based 4th generation adapter.", /*// id: 220000989, original text: */"Adaptive attitude-oriented support. Networked scalable support. Open-architected scalable help-desk. Versatile stable encryption. Function-based 4th generation adapter."),
+                ("Assimilated didactic archive.", /*// id: 1535356, original text: */"Assimilated didactic archive."),
+                ("Enhanced disintermediate", /*// id: 220001902, original text: */"Enhanced disintermediate functionalities. Seamless contextually-based projection. Intuitive foreground process improvement. Advanced dynamic info-mediaries. Versatile needs-based open architecture. Profound clear-thinking orchestration. Integrated didactic task-force."),
+                ("Profound fault-tolerant", /*// id: 220002667, original text: */"Cross-platform non-volatile paradigm. Profound fault-tolerant hardware. Proactive fault-tolerant portal."),
+                ("Customer-focused discrete", /*// 3235356, original text: */"Customer-focused discrete focus group."),
+                ("Synergistic upward-trending.", /*// id: 220002998 , original text: */"Digitized methodical matrix. Synergistic upward-trending attitude."),
+            };
 
             //var searchTexts = new List<(string, string)>
             //{
@@ -64,20 +68,20 @@ namespace PSQL.Debug.App
             //    ("hour functionalities", "hour functionalities"),
             //};
 
-            var searchTexts = new List<(string, string)>
-            {
-                ("last time", "last time"),
-                ("best company ever", "best company ever"),
-                ("mountain trip", "mountain trip"),
-                ("albert einstein", "albert einstein"),
-                ("wikipedia", "wikipedia"),
-                ("google chrome issue", "google chrome issue"),
-                ("cryptocurrency prices", "cryptocurrency prices"),
-                ("animal world", "animal world"),
-                ("transactional analysis", "transactional analysis"),
-                ("programming languages", "programming languages"),
-            };
-
+            //var searchTexts = new List<(string, string)>
+            //{
+            //    ("culpa dolorem ","Quaerat culpa dolorem dolores nisi aut."),
+            //    ("last time", "last time"),
+            //    ("best company ever", "best company ever"),
+            //    ("mountain trip", "mountain trip"),
+            //    ("albert einstein", "albert einstein"),
+            //    ("wikipedia", "wikipedia"),
+            //    ("google chrome issue", "google chrome issue"),
+            //    ("cryptocurrency prices", "cryptocurrency prices"),
+            //    ("animal world", "animal world"),
+            //    ("transactional analysis", "transactional analysis"),
+            //    ("programming languages", "programming languages"),
+            //};
 
             foreach (var text in searchTexts)
             {
@@ -87,6 +91,30 @@ namespace PSQL.Debug.App
                     .Where(p => p.SearchVector.Matches(text.Item1))
                     .Take(50)
                     .ToListAsync();
+
+
+
+
+                #region search tests
+                //var messages = await dbContext.Messages
+                //    //.Where(p => p.SearchVector.Matches(text.Item1))
+                //    //.Where(p => p.SearchVector.Matches(EF.Functions.PhraseToTsQuery(text.Item1)))
+                //    //.Where(p => p.Text.Contains(text.Item1))
+                //    //.Where(p => EF.Functions.FuzzyStringMatchLevenshtein(text.Item1, p.Text) <= 1)
+                //    //.Where(p => EF.Functions.ILike(p.Text, searchTerm))
+                //    // .Where(f => EF.Functions.FuzzyStringMatchDifference(f.Text, text.Item1) >= 4.8)
+                //    .Where(f => EF.Functions.TrigramsWordSimilarity(f.Text, "level") >= 0.5)
+                //    //.Where(f => EF.Functions.FuzzyStringMatchSoundex(f.Text) == text.Item1)
+                //    //.Where(f => EF.Functions.FuzzyStringMatchDifference(f.Text, text.Item1) <= 0.1)
+                //    //.OrderByDescending(f => EF.Functions.FuzzyStringMatchDifference(f.Text, text.Item1))
+                //    //.OrderBy(f => EF.Functions.FuzzyStringMatchDifference(f.Text, text.Item1))
+                //    .Take(5)
+                //    .ToListAsync();
+                #endregion
+
+
+
+
                 stopwatch.Stop();
                 var queryTime = stopwatch.ElapsedMilliseconds;
                 Console.WriteLine("Search text: {0}", text.Item1);

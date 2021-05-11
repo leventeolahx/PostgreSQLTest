@@ -1,0 +1,5 @@
+Search text: last time
+Query time (milliseconds): 229350
+
+Search text: best company ever
+Query time (milliseconds): 225490

@@ -1,4 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using System;
+
+using Microsoft.EntityFrameworkCore;
 
 using PSQL.Data.Domain.Models;
 
@@ -16,13 +19,22 @@ namespace PSQL.Data.Domain
         {
             if (!optionsBuilder.IsConfigured)
             {
-                var connectionString = "Server=127.0.0.1; port=5432; user id = testuser; password = 12345; database= Chat; pooling = true";
-                optionsBuilder.UseNpgsql(connectionString);
+                var connectionString = "Server=127.0.0.1; port=5432; user id = testuser; password = 12345; database= Chat; pooling = true;";
+                optionsBuilder.UseNpgsql(connectionString, opt => {
+                    opt.CommandTimeout((int)TimeSpan.FromMinutes(10).TotalSeconds);
+                    opt.UseFuzzyStringMatch();
+                    opt.UseTrigrams();
+                    });
+                //optionsBuilder.UseNpgsql(connectionString);s
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
+            modelBuilder.HasPostgresExtension("fuzzystrmatch");
+            modelBuilder.HasPostgresExtension("pg_trgm");
+
             modelBuilder.Entity<Message>()
                 .HasGeneratedTsVectorColumn(
                     p => p.SearchVector,
