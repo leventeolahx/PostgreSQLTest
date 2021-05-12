@@ -1,0 +1,42 @@
+Search text: Virtal radical proj
+Query time (milliseconds): 2207
+
+Search text: extranet multimedia Secured
+Query time (milliseconds): 893
+
+Search text: layered incremental
+Query time (milliseconds): 810
+Result[0].Text: Multi-layered incremental leverage. Pre-emptive well-modulated framework. Assimilated human-resource adapter. Up-sized foreground firmware. Versatile actuating solution. Robust 24/7 superstructure. Right-sized hybrid moratorium.
+Result[1].Text: Object-based value-added framework. Multi-layered incremental initiative. Re-contextualized mission-critical website. Vision-oriented assymetric projection. Future-proofed stable open system.
+Result[2].Text: Multi-layered incremental success. Secured systemic extranet. Re-contextualized global knowledge user.
+Result[3].Text: Cloned client-server access. Cross-group zero tolerance infrastructure. Multi-layered incremental throughput. Total incremental help-desk. Object-based needs-based firmware.
+Result[4].Text: Multi-layered incremental capability.
+Result[5].Text: Devolved motivating superstructure. Multi-layered incremental installation. Extended homogeneous instruction set. Expanded transitional challenge. Horizontal empowering solution.
+Result[6].Text: Polarised real-time budgetary management. Multi-layered incremental toolset. Re-contextualized object-oriented project. Persistent static strategy.
+Result[7].Text: Multi-layered incremental software. Digitized human-resource attitude. Inverse methodical project. Down-sized human-resource interface.
+Result[8].Text: Enterprise-wide homogeneous approach. Sharable well-modulated synergy. Digitized needs-based secured line. Multi-layered incremental leverage. Programmable radical flexibility.
+Result[9].Text: Profound explicit emulation. Multi-layered incremental challenge. Implemented encompassing process improvement. Quality-focused modular groupware. Streamlined intermediate customer loyalty. Realigned discrete portal. Ergonomic modular definition.
+
+Search text: asynchronous info-mediaries. Business
+Query time (milliseconds): 893
+Result[0].Text: Quality-focused asynchronous info-mediaries. Business-focused national toolset. Virtual system-worthy migration.
+Result[1].Text: Visionary asynchronous budgetary management. Diverse asynchronous info-mediaries. Business-focused global functionalities.
+Result[2].Text: Switchable bi-directional policy. Right-sized asynchronous info-mediaries. Business-focused impactful groupware. Monitored mission-critical hub. Expanded high-level orchestration. Distributed holistic installation.
+
+Search text: hybrid mat
+Query time (milliseconds): 496
+Result[0].Text: Managed object-oriented internet solution. Synergistic mobile forecast. Multi-channelled hybrid matrix. Future-proofed asynchronous help-desk. Optimized needs-based complexity. Centralized bifurcated throughput. Cloned fault-tolerant analyzer.
+Result[1].Text: Focused 24 hour success. Assimilated eco-centric alliance. Assimilated mission-critical artificial intelligence. Adaptive local hierarchy. Visionary clear-thinking frame. Focused hybrid matrices. Devolved web-enabled analyzer.
+Result[2].Text: Optional clear-thinking firmware. Mandatory hybrid matrices. Quality-focused even-keeled model. Multi-layered static access. Reduced solution-oriented infrastructure. Persistent static knowledge base. Re-contextualized full-range alliance.
+Result[3].Text: Configurable tertiary structure. Implemented asynchronous utilisation. Fully-configurable hybrid matrix. Multi-tiered modular archive. Cross-platform zero administration moratorium. Cloned transitional middleware.
+Result[4].Text: Re-contextualized next generation paradigm. Integrated dedicated system engine. Face to face logistical emulation. Open-architected responsive project. Business-focused hybrid matrices. Stand-alone actuating collaboration. Configurable mission-critical superstructure.
+Result[5].Text: Synergized non-volatile frame. Persevering hybrid matrix. Multi-tiered 3rd generation structure.
+Result[6].Text: Multi-tiered background knowledge user. Business-focused tangible application. Switchable motivating hub. Multi-tiered discrete local area network. Cloned incremental functionalities. Monitored hybrid matrices. Configurable value-added neural-net.
+Result[7].Text: Reactive composite service-desk. Exclusive global knowledge user. Horizontal hybrid matrix. De-engineered 4th generation knowledge user. Upgradable empowering hub. Synergistic zero administration structure.
+Result[8].Text: Public-key hybrid matrices. Implemented upward-trending info-mediaries. Configurable leading edge protocol. Ameliorated composite knowledge user. Team-oriented contextually-based core. Multi-layered upward-trending initiative.
+Result[9].Text: Operative uniform internet solution. Fully-configurable 4th generation groupware. Right-sized hybrid matrices.
+
+
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\bin\Debug\netcoreapp3.1\PSQL.Debug.App.exe (process 21152) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

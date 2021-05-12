@@ -1,0 +1,39 @@
+Using: .Where(p => EF.Functions.ILike(p.Text, searchTerm))
+
+Search text: Virtal radical proj
+Query time (milliseconds): 1469
+
+Search text: extranet multimedia Secured
+Query time (milliseconds): 33
+
+Search text: layered incremental
+Query time (milliseconds): 56
+Result[0].Text: Multi-layered incremental Graphic Interface.
+Result[1].Text: Multi-layered incremental definition. Optional asynchronous focus group. Streamlined analyzing firmware. Function-based 24/7 process improvement. Total bi-directional conglomeration.
+Result[2].Text: Open-architected homogeneous analyzer. Multi-layered incremental hierarchy. Ergonomic assymetric installation. Robust radical infrastructure. Compatible grid-enabled database. Customer-focused intangible open architecture. Customer-focused empowering moderator.
+Result[3].Text: Devolved grid-enabled protocol. Multi-layered incremental extranet. Quality-focused well-modulated workforce. Managed context-sensitive database. Cross-group even-keeled website. Customer-focused homogeneous open architecture.
+Result[4].Text: Up-sized local info-mediaries. Multi-layered incremental collaboration. Diverse 6th generation hierarchy.
+Result[5].Text: Cloned value-added pricing structure. Enhanced tangible info-mediaries. Multi-layered incremental collaboration. Centralized interactive ability. Public-key full-range utilisation. Secured exuding flexibility. Up-sized encompassing middleware.
+Result[6].Text: Configurable discrete database. Multi-layered incremental initiative. Enhanced next generation function. Advanced foreground core. Quality-focused radical middleware.
+Result[7].Text: Multi-layered incremental software. Self-enabling clear-thinking knowledge user. Digitized 24 hour product. Total 4th generation software. Organic dedicated policy. Reverse-engineered demand-driven projection.
+Result[8].Text: Multi-layered incremental model. Optional intermediate emulation.
+Result[9].Text: Intuitive directional interface. Multi-layered incremental customer loyalty. Centralized content-based frame.
+
+Search text: asynchronous info-mediaries. Business
+Query time (milliseconds): 9
+Result[0].Text: Switchable bi-directional policy. Right-sized asynchronous info-mediaries. Business-focused impactful groupware. Monitored mission-critical hub. Expanded high-level orchestration. Distributed holistic installation.
+Result[1].Text: Quality-focused asynchronous info-mediaries. Business-focused national toolset. Virtual system-worthy migration.
+Result[2].Text: Visionary asynchronous budgetary management. Diverse asynchronous info-mediaries. Business-focused global functionalities.
+
+Search text: hybrid mat
+Query time (milliseconds): 7
+Result[0].Text: Customizable hybrid matrices.
+Result[1].Text: Distributed demand-driven knowledge base. Organic hybrid matrices.
+Result[2].Text: Inverse impactful pricing structure. Up-sized even-keeled toolset. Extended hybrid matrix. Optional upward-trending instruction set.
+Result[3].Text: Persevering empowering complexity. Monitored needs-based local area network. Re-contextualized hybrid matrices.
+Result[4].Text: Persevering hybrid matrices. Visionary holistic functionalities. Front-line context-sensitive moratorium. Inverse uniform alliance. Multi-layered fresh-thinking orchestration. Synchronised optimal superstructure.
+Result[5].Text: Reverse-engineered tangible Graphic Interface. Realigned background array. Innovative high-level emulation. Robust transitional groupware. Mandatory hybrid matrices. Open-source mission-critical Graphic Interface.
+Result[6].Text: Multi-lateral full-range forecast. Organized executive function. Extended hybrid matrices.
+Result[7].Text: Multi-layered mobile migration. Switchable fault-tolerant system engine. Ameliorated 5th generation standardization. Business-focused transitional core. Seamless hybrid matrices. Progressive multimedia complexity. Versatile full-range middleware.
+Result[8].Text: Extended hybrid matrix. Innovative zero tolerance benchmark. Fundamental analyzing knowledge base. Multi-channelled next generation challenge. Future-proofed contextually-based instruction set. User-centric multi-tasking algorithm.
+Result[9].Text: Cross-platform holistic internet solution. Horizontal human-resource matrices. User-centric analyzing migration. Switchable hybrid matrices. Self-enabling methodical open system. Front-line multi-state hierarchy.

@@ -9,3 +9,4 @@ C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\obj\Debug\netcoreapp3
 C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\obj\Debug\netcoreapp3.1\PSQL.Data.Domain.dll
 C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\obj\Debug\netcoreapp3.1\PSQL.Data.Domain.pdb
 C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\obj\Debug\netcoreapp3.1\PSQL.Data.Domain.genruntimeconfig.cache
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Data.Domain\obj\Debug\netcoreapp3.1\PSQL.Data.Domain.csprojAssemblyReference.cache

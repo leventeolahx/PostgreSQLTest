@@ -56,7 +56,7 @@ namespace PSQL.Debug.App
 
             var searchTexts = new List<(string, string)>
             {
-               ("Virtual radical proj","Digitized empowering adapter. Innovative multimedia firmware. Virtual radical project. Virtual system-worthy knowledge user. Decentralized secondary benchmark. Balanced uniform methodology. Exclusive tertiary capacity."),
+               ("Virtal radical proj","Digitized empowering adapter. Innovative multimedia firmware. Virtual radical project. Virtual system-worthy knowledge user. Decentralized secondary benchmark. Balanced uniform methodology. Exclusive tertiary capacity."),
                ("extranet multimedia Secured","Customer-focused non-volatile extranet. Fundamental hybrid alliance. Compatible multimedia intranet. Secured solution-oriented synergy. Implemented hybrid adapter. Expanded bifurcated knowledge user. Centralized composite capability."),
                ("layered incremental","Multi-layered incremental Graphic Interface."),
                ("asynchronous info-mediaries. Business","Switchable bi-directional policy. Right-sized asynchronous info-mediaries. Business-focused impactful groupware. Monitored mission-critical hub. Expanded high-level orchestration. Distributed holistic installation."),
@@ -97,8 +97,8 @@ namespace PSQL.Debug.App
                 var searchTerm = $"%{text.Item1}%";
                 var dbContext = new PSQLContext();
                 var stopwatch = Stopwatch.StartNew();
-                var messages = await dbContext.Messages                   
-                    .Where(p => EF.Functions.TrigramsAreStrictWordSimilar(p.Text, searchTerm))
+                var messages = await dbContext.Messages                  
+                    .Where(p => EF.Functions.ILike(p.Text, searchTerm))
                     .Take(50)
                     .ToListAsync();
 
