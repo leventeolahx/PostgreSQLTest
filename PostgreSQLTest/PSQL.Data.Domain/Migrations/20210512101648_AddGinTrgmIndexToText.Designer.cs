@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using NpgsqlTypes;
@@ -10,9 +11,10 @@ using PSQL.Data.Domain;
 namespace PSQL.Data.Domain.Migrations
 {
     [DbContext(typeof(PSQLContext))]
-    partial class PSQLContextModelSnapshot : ModelSnapshot
+    [Migration("20210512101648_AddGinTrgmIndexToText")]
+    partial class AddGinTrgmIndexToText
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

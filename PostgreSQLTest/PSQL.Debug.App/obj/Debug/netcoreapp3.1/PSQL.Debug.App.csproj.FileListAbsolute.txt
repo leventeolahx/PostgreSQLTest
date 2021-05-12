@@ -19,6 +19,8 @@ C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\bin\Debug\netcoreapp3.1
 C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\bin\Debug\netcoreapp3.1\Npgsql.dll
 C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.FuzzyStringMatch.dll
+C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.Trigrams.dll
 C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
@@ -33,5 +35,3 @@ C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\obj\Debug\netcoreapp3.1
 C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\obj\Debug\netcoreapp3.1\PSQL.Debug.App.dll
 C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\obj\Debug\netcoreapp3.1\PSQL.Debug.App.pdb
 C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\obj\Debug\netcoreapp3.1\PSQL.Debug.App.genruntimeconfig.cache
-C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.FuzzyStringMatch.dll
-C:\Work\Git\PostgreSQLTest\PostgreSQLTest\PSQL.Debug.App\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.Trigrams.dll

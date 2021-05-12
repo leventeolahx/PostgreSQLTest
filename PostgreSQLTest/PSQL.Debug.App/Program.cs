@@ -17,7 +17,7 @@ namespace PSQL.Debug.App
     public class Program
     {
         private static async Task Main(string[] args)
-        {            
+        {
             //await GenerateMessage();
             await TestPSQLFullTextSearch();
         }
@@ -39,19 +39,28 @@ namespace PSQL.Debug.App
             //    ("Eum error ut libero voluptatem et tempora omnis. Debitis quia sit et ducimus quo ipsam sunt. Harum enim deserunt quos velit voluptas debitis dolorum.", /*// 3235356, original text: */"Eum error ut libero voluptatem et tempora omnis. Debitis quia sit et ducimus quo ipsam sunt. Harum enim deserunt quos velit voluptas debitis dolorum."),
             //    ("Illum quae et sed animi cupiditate est.", /*// id: 3735356, original text: */"Illum quae et sed id. Ducimus adipisci animi cupiditate. Eum temporibus nulla beatae voluptatem voluptas harum. Aut hic debitis praesentium maxime aliquam quia. Quia qui ea natus est."),
             //};
+            //var searchTexts = new List<(string, string)>
+            //{
+            //    //("Upgradable high-level policy. Business-focused", /* // id: 220000006, original text: */"Upgradable high-level policy. Business-focused optimizing hub. Monitored optimizing capacity. Seamless directional definition. Assimilated motivating neural-net. Public-key intangible infrastructure. Expanded well-modulated challenge."),
+            //    ("Upgradable high-level policy", /* // id: 220000006, original text: */"Upgradable high-level policy. Business-focused optimizing hub. Monitored optimizing capacity. Seamless directional definition. Assimilated motivating neural-net. Public-key intangible infrastructure. Expanded well-modulated challenge."),
+            //    ("Diverse intermediate hub.", /*// id: 220000038, original text: */"Diverse intermediate hub."),
+            //    ("Inverse global frame", /*// id: 220000329, original text: */"Balanced impactful emulation. Inverse global frame. Business-focused contextually-based application."),
+            //    ("Up-sized optimizing orchestration.", /*// id: 220000858, original text: */"Total composite focus group. Streamlined dedicated definition. Up-sized optimizing orchestration."),
+            //    ("Versatile stable encryption. Function-based 4th generation adapter.", /*// id: 220000989, original text: */"Adaptive attitude-oriented support. Networked scalable support. Open-architected scalable help-desk. Versatile stable encryption. Function-based 4th generation adapter."),
+            //    ("Assimilated didactic archive.", /*// id: 1535356, original text: */"Assimilated didactic archive."),
+            //    ("Enhanced disintermediate", /*// id: 220001902, original text: */"Enhanced disintermediate functionalities. Seamless contextually-based projection. Intuitive foreground process improvement. Advanced dynamic info-mediaries. Versatile needs-based open architecture. Profound clear-thinking orchestration. Integrated didactic task-force."),
+            //    ("Profound fault-tolerant", /*// id: 220002667, original text: */"Cross-platform non-volatile paradigm. Profound fault-tolerant hardware. Proactive fault-tolerant portal."),
+            //    ("Customer-focused discrete", /*// 3235356, original text: */"Customer-focused discrete focus group."),
+            //    ("Synergistic upward-trending.", /*// id: 220002998 , original text: */"Digitized methodical matrix. Synergistic upward-trending attitude."),
+            //};
+
             var searchTexts = new List<(string, string)>
             {
-                //("Upgradable high-level policy. Business-focused", /* // id: 220000006, original text: */"Upgradable high-level policy. Business-focused optimizing hub. Monitored optimizing capacity. Seamless directional definition. Assimilated motivating neural-net. Public-key intangible infrastructure. Expanded well-modulated challenge."),
-                ("Upgradable high-level policy", /* // id: 220000006, original text: */"Upgradable high-level policy. Business-focused optimizing hub. Monitored optimizing capacity. Seamless directional definition. Assimilated motivating neural-net. Public-key intangible infrastructure. Expanded well-modulated challenge."),
-                ("Diverse intermediate hub.", /*// id: 220000038, original text: */"Diverse intermediate hub."),
-                ("Inverse global frame", /*// id: 220000329, original text: */"Balanced impactful emulation. Inverse global frame. Business-focused contextually-based application."),
-                ("Up-sized optimizing orchestration.", /*// id: 220000858, original text: */"Total composite focus group. Streamlined dedicated definition. Up-sized optimizing orchestration."),
-                ("Versatile stable encryption. Function-based 4th generation adapter.", /*// id: 220000989, original text: */"Adaptive attitude-oriented support. Networked scalable support. Open-architected scalable help-desk. Versatile stable encryption. Function-based 4th generation adapter."),
-                ("Assimilated didactic archive.", /*// id: 1535356, original text: */"Assimilated didactic archive."),
-                ("Enhanced disintermediate", /*// id: 220001902, original text: */"Enhanced disintermediate functionalities. Seamless contextually-based projection. Intuitive foreground process improvement. Advanced dynamic info-mediaries. Versatile needs-based open architecture. Profound clear-thinking orchestration. Integrated didactic task-force."),
-                ("Profound fault-tolerant", /*// id: 220002667, original text: */"Cross-platform non-volatile paradigm. Profound fault-tolerant hardware. Proactive fault-tolerant portal."),
-                ("Customer-focused discrete", /*// 3235356, original text: */"Customer-focused discrete focus group."),
-                ("Synergistic upward-trending.", /*// id: 220002998 , original text: */"Digitized methodical matrix. Synergistic upward-trending attitude."),
+               ("Virtual radical proj","Digitized empowering adapter. Innovative multimedia firmware. Virtual radical project. Virtual system-worthy knowledge user. Decentralized secondary benchmark. Balanced uniform methodology. Exclusive tertiary capacity."),
+               ("extranet multimedia Secured","Customer-focused non-volatile extranet. Fundamental hybrid alliance. Compatible multimedia intranet. Secured solution-oriented synergy. Implemented hybrid adapter. Expanded bifurcated knowledge user. Centralized composite capability."),
+               ("layered incremental","Multi-layered incremental Graphic Interface."),
+               ("asynchronous info-mediaries. Business","Switchable bi-directional policy. Right-sized asynchronous info-mediaries. Business-focused impactful groupware. Monitored mission-critical hub. Expanded high-level orchestration. Distributed holistic installation."),
+               ("hybrid mat","Customizable hybrid matrices.")
             };
 
             //var searchTexts = new List<(string, string)>
@@ -85,17 +94,43 @@ namespace PSQL.Debug.App
 
             foreach (var text in searchTexts)
             {
+                var searchTerm = $"%{text.Item1}%";
                 var dbContext = new PSQLContext();
                 var stopwatch = Stopwatch.StartNew();
-                var messages = await dbContext.Messages
-                    .Where(p => p.SearchVector.Matches(text.Item1))
+                var messages = await dbContext.Messages                   
+                    .Where(p => EF.Functions.TrigramsAreStrictWordSimilar(p.Text, searchTerm))
                     .Take(50)
                     .ToListAsync();
 
 
-
-
                 #region search tests
+
+                //var messages = await dbContext.Messages
+                //   //.Where(p => p.SearchVector.Matches(text.Item1))
+                //   //.Where(f => EF.Functions.FuzzyStringMatchDifference(f.Text, text.Item1) >= 4.5)
+                //   //.Where(f => EF.Functions.TrigramsWordSimilarity(f.Text, text.Item1) >= 0.3)
+                //   //.OrderByDescending(f => EF.Functions.FuzzyStringMatchDifference(f.Text, text.Item1))
+
+                //   //.Where(p => EF.Functions.ILike(p.Text, searchTerm))
+
+                //   //.Where(p => EF.Functions.TrigramsAreSimilar(p.Text, searchTerm))
+                //   //.Where(p => EF.Functions.TrigramsAreWordSimilar(p.Text, searchTerm))
+
+                //   //.Where(p => EF.Functions.TrigramsWordSimilarityDistance(p.Text, searchTerm) >= 5)
+
+                //   //.Where(p => EF.Functions.TrigramsWordSimilarityDistance(p.Text, searchTerm) >= 5)
+
+                //   //.Where(p => EF.Functions.TrigramsWordSimilarity(p.Text, searchTerm) >= 0.2)
+
+                //   .Where(p => EF.Functions.TrigramsAreStrictWordSimilar(p.Text, searchTerm))
+
+                //   //.Where(p => EF.Functions.TrigramsAreNotStrictWordSimilar(p.Text, searchTerm))
+
+                //   //.OrderByDescending(f => EF.Functions.TrigramsAreStrictWordSimilar(f.Text, text.Item1))
+                //   .Take(50)
+                //   .ToListAsync();
+
+
                 //var messages = await dbContext.Messages
                 //    //.Where(p => p.SearchVector.Matches(text.Item1))
                 //    //.Where(p => p.SearchVector.Matches(EF.Functions.PhraseToTsQuery(text.Item1)))
@@ -135,7 +170,7 @@ namespace PSQL.Debug.App
             Random r = new Random();
             var messageList = new List<Message>();
             // generate fake data
-            for (var i = 0; i < 200000001; i++)
+            for (var i = 0; i < 200001; i++)
             {
                 messageList.Add(new Message()
                 {
@@ -144,7 +179,7 @@ namespace PSQL.Debug.App
                     Text = GenerateMessageText(r.Next(0, 8))
                 });
 
-                if (i % 1000000 == 0)
+                //if (i % 1000000 == 0)
                 {
                     var dbContext = new PSQLContext();
                     dbContext.Messages.AddRange(messageList);
